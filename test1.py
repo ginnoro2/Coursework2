@@ -14,9 +14,7 @@ from mysql.connector import Error
 class Window:
     def __init__(self, master):
 
-        global window
-
-        window = tk.Tk()
+      
         self.mainFrame = Frame(master)
         self.mainFrame.pack(side=TOP,padx=100,  pady=100)
         
@@ -32,12 +30,10 @@ class Window:
 
 class Main:     
     def __init__(self):
-        #self.frame = Frame(master)
-        #self.frame.pack(padx=10, pady=10)
+        
         Top = Toplevel()
 
-        #self.frame = Frame(Top)
-        #self.frame.pack(padx=10, pady=10)
+       
         self.LoginFrame = Frame(Top)
         self.LoginFrame.pack(side=TOP,padx=100,  pady=100)
         
@@ -185,6 +181,7 @@ class Register:
             self.lbl_result2.config(text="Successfully Created!", fg="black")
             cursor.close()
             conn.close()
+
 class Connect_db:
     def __init_(self):
         Database()
