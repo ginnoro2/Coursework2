@@ -15,7 +15,7 @@ Install required packages.
 pip install -r requirements.txt
 ```
 
-use python to run the program.
+use python3 to run the program.
 ```
 python3 gui.py
 ```
