@@ -1,0 +1,11 @@
+
+mysql-connector        2.2.9
+mysql-connector-python 8.0.32
+PyMySQL                1.0.2
+requests               2.28.1
+setuptools             65.6.3
+sql                    2022.4.0
+SQLAlchemy             2.0.1
+tk                     0.1.0
+virtualenv             20.17.1
+
